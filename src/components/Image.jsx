@@ -4,12 +4,13 @@ import faker from "faker";
 class Image extends React.Component {
   state = { image: null };
 
-  // fetchImagen = async () => {
-  //   await faker.image.image();
-  // };
   componentDidMount() {
     this.setState({ image: faker.image.image() });
   }
+
+  // componentDidUpdate() {
+  //   this.setState({ image: faker.image.image() });
+  // }
 
   render() {
     return (
