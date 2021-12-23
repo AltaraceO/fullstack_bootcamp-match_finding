@@ -1,4 +1,47 @@
 .app {
   display: inline-block;
 }
-/*# sourceMappingURL=App.css.map */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 100vh;
+  max-width: 400px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.red {
+  background-color: lightcoral;
+  height: 40px;
+  width: 40px;
+  font-size: x-large;
+}
+.green {
+  background-color: lightgreen;
+  height: 40px;
+  width: 40px;
+  font-size: x-large;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.btns button {
+  padding: 10px;
+  border-radius: 50%;
+}
