@@ -8,10 +8,6 @@ class Image extends React.Component {
     this.setState({ image: faker.image.image() });
   }
 
-  // componentDidUpdate() {
-  //   this.setState({ image: faker.image.image() });
-  // }
-
   render() {
     return (
       <div>
